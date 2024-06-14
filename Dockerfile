@@ -1,4 +1,4 @@
-FROM python:3.9-slim
+FROM ubuntu:22.04
 MAINTAINER st119492 
 RUN apt-get update -y 
 COPY . /opt/gsom_predictor
