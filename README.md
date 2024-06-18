@@ -56,28 +56,19 @@ CMD python3 app.py
 
 ```
 blinker==1.8.2
-
 click==8.1.7
-
-Flask==3.0.3
-
+flask==3.0.3
+importlib-metadata==7.1.0
 itsdangerous==2.2.0
-
-Jinja2==3.1.4
-
+jinja2==3.1.4
 joblib==1.4.2
-
 MarkupSafe==2.1.5
-
-numpy==1.26.4
-
+numpy==1.24.4
 scikit-learn==1.2.2
-
-scipy==1.13.1
-
+scipy==1.10.1
 threadpoolctl==3.5.0
-
-Werkzeug==3.0.3
+werkzeug==3.0.3
+zipp==3.19.2
 ```
 
 
@@ -87,10 +78,9 @@ To open the port on your remote VM, you need to configure the firewall settings 
 
 ## Running the Application with Docker
 
-1. **Build Docker Image**: `docker build -t st119492/gsom_e2e:v.0.4 .`
-2. **Run Docker Container**: `docker run --network host -d st119492/gsom_e2e:v.0.4`
+1. **Build Docker Image**: `docker build -t st119492/gsom_e2e:v.0.9 .`
+2. **Run Docker Container**: `docker run --network host -d st119492/gsom_e2e:v.0.9`
 
-The application will be accessible at `http://<your_vm_ip>:7778`. (will be later)
 
 
 
